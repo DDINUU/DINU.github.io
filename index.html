@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute and nth pseudo selectors</title>
+    <style>
+        input {
+            display: block;
+        }
+
+        .container {
+            display: block;
+            width: 235px;
+            margin: auto;
+        }
+li:nth-child(odd){ color: goldenrod;background-color: rgb(136, 106, 164);}
+li:nth-child(even){ color: rgb(82, 240, 82); background-color: rgb(158, 233, 233);}
+        input[type="text"] {
+            padding: 13px;
+            border: 3px solid rgb(206, 62, 62);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <form action="" class="formcontrrol">
+            <input type="text" placeholder="Enter your name ">
+            <input type="password" placeholder="Enter your password ">
+            <input type="Submit" placeholder="submit ">
+        </form>
+        <li class="item" id="item1">Iteam1</li>
+        <li class="item" id="item2">Iteam2</li>
+        <li class="item" id="item3">Iteam3</li>
+        <li class="item" id="item4">Iteam4</li>
+        <li class="item" id="item5">Iteam5</li>
+    </div>
+</body>
+
+</html>
